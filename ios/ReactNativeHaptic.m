@@ -77,7 +77,7 @@ RCT_EXPORT_METHOD(prepare)
 - (BOOL)activatedAlternativeHapticForType:(NSString *)type {
   if([self needsAlternativeHaptic]){
     if ([type isEqual: @"impact"]) {
-      AudioServicesPlaySystemSound((SystemSoundID) 1107);
+      AudioServicesPlaySystemSound((SystemSoundID) 1520);
     } else if ([type isEqual:@"notification"]) {
       AudioServicesPlaySystemSound((SystemSoundID) 1521);
     } else if ([type isEqual:@"selection"]) {
